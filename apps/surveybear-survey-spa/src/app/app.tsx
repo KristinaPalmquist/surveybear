@@ -12,7 +12,6 @@ const StyledApp = styled.div`
 
 
 export function App() {
-
   return (
     <StyledApp>
       <Routes>
@@ -23,8 +22,6 @@ export function App() {
       </Routes>
     </StyledApp>
   );
-
 }
-
 
 export default App;
