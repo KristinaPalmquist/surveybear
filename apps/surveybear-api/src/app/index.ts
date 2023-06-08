@@ -9,3 +9,8 @@ app.use(express.json());
 
 //Routers
 app.use(surveyRouter);
+
+//Global error handler
+app.use(handleGlobalErrors);
+
+export default app;

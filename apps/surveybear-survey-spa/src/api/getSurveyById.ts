@@ -1,7 +1,6 @@
+import { ISurvey } from "@surveybear/surveybear-lib";
 
-import { ISurvey } from '@surveybear/surveybear-lib';
-
-const getSurveyById = async (surveyId: string): Promise<ISurvey> => {
+export const getSurveyById = async ( surveyId: string): Promise<ISurvey> => {
+    console.log(surveyId);
     return (await fetch(`http://localhost:4200/api/survey/${surveyId}`)).json();
 }
-export default getSurveyById;
