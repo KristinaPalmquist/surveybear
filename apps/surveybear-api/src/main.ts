@@ -1,7 +1,7 @@
 import {connect} from "@surveybear/surveybear-lib"
 import app from "./app";
 
-const port = process.env.port || 3333;
+const port = process.env.port;
 // const port = process.env.port || 3333;
 
 try {
